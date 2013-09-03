@@ -311,35 +311,6 @@ grid 2.54 mm</description>
 <rectangle x1="-0.889" y1="-1.27" x2="0.889" y2="-0.762" layer="51"/>
 <rectangle x1="1.651" y1="-1.27" x2="3.429" y2="-0.762" layer="51"/>
 </package>
-<package name="C025-050X050">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
-grid 2.5 mm, outline 5 x 5 mm</description>
-<wire x1="-2.159" y1="2.286" x2="2.159" y2="2.286" width="0.1524" layer="21"/>
-<wire x1="2.159" y1="-2.286" x2="-2.159" y2="-2.286" width="0.1524" layer="21"/>
-<wire x1="2.413" y1="2.032" x2="2.413" y2="-2.032" width="0.1524" layer="21"/>
-<wire x1="-2.413" y1="2.032" x2="-2.413" y2="-2.032" width="0.1524" layer="21"/>
-<wire x1="2.159" y1="2.286" x2="2.413" y2="2.032" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-2.413" y1="2.032" x2="-2.159" y2="2.286" width="0.1524" layer="21" curve="-90"/>
-<wire x1="2.159" y1="-2.286" x2="2.413" y2="-2.032" width="0.1524" layer="21" curve="90"/>
-<wire x1="-2.413" y1="-2.032" x2="-2.159" y2="-2.286" width="0.1524" layer="21" curve="90"/>
-<wire x1="0.762" y1="0" x2="0.381" y2="0" width="0.1524" layer="51"/>
-<wire x1="0.381" y1="0" x2="0.254" y2="0" width="0.1524" layer="21"/>
-<wire x1="0.254" y1="0" x2="0.254" y2="0.762" width="0.254" layer="21"/>
-<wire x1="0.254" y1="0" x2="0.254" y2="-0.762" width="0.254" layer="21"/>
-<wire x1="-0.254" y1="0.762" x2="-0.254" y2="0" width="0.254" layer="21"/>
-<wire x1="-0.254" y1="0" x2="-0.254" y2="-0.762" width="0.254" layer="21"/>
-<wire x1="-0.254" y1="0" x2="-0.381" y2="0" width="0.1524" layer="21"/>
-<wire x1="-0.381" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
-<pad name="1" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
-<pad name="2" x="1.27" y="0" drill="0.8128" shape="octagon"/>
-<text x="-2.286" y="2.54" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.286" y="-3.81" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="1.524" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="1.016" x2="-1.27" y2="1.27" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="1.27" x2="-1.524" y2="1.27" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="1.27" x2="-1.016" y2="1.27" width="0.127" layer="21"/>
-<wire x1="1.016" y1="1.27" x2="1.524" y2="1.27" width="0.127" layer="21"/>
-</package>
 <package name="22-23-2061">
 <description>.100" (2.54mm) Center Header - 6 Pin</description>
 <wire x1="-7.62" y1="3.175" x2="7.62" y2="3.175" width="0.254" layer="21"/>
@@ -357,6 +328,52 @@ grid 2.5 mm, outline 5 x 5 mm</description>
 <pad name="6" x="6.35" y="0" drill="1" shape="long" rot="R90"/>
 <text x="-7.62" y="3.81" size="1.016" layer="25" ratio="10">&gt;NAME</text>
 <text x="-7.62" y="-5.08" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="C025-050X050">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
+grid 2.5 mm, outline 5 x 5 mm</description>
+<wire x1="0.762" y1="0" x2="0.381" y2="0" width="0.1524" layer="51"/>
+<wire x1="0.381" y1="0" x2="0.254" y2="0" width="0.1524" layer="21"/>
+<wire x1="0.254" y1="0" x2="0.254" y2="0.762" width="0.254" layer="21"/>
+<wire x1="0.254" y1="0" x2="0.254" y2="-0.762" width="0.254" layer="21"/>
+<wire x1="-0.254" y1="0.762" x2="-0.254" y2="0" width="0.254" layer="21"/>
+<wire x1="-0.254" y1="0" x2="-0.254" y2="-0.762" width="0.254" layer="21"/>
+<wire x1="-0.254" y1="0" x2="-0.381" y2="0" width="0.1524" layer="21"/>
+<wire x1="-0.381" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
+<pad name="1" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
+<pad name="2" x="1.27" y="0" drill="0.8128" shape="octagon"/>
+<text x="-2.286" y="2.54" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.286" y="-3.81" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<wire x1="-0.77" y1="1.17" x2="-0.77" y2="1.424" width="0.127" layer="21"/>
+<wire x1="-0.77" y1="0.916" x2="-0.77" y2="1.17" width="0.127" layer="21"/>
+<wire x1="-0.77" y1="1.17" x2="-1.024" y2="1.17" width="0.127" layer="21"/>
+<wire x1="-0.77" y1="1.17" x2="-0.516" y2="1.17" width="0.127" layer="21"/>
+<wire x1="0.516" y1="1.17" x2="1.024" y2="1.17" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="2.102378125" width="0.127" layer="21"/>
+</package>
+<package name="C050-024X044">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
+grid 5 mm, outline 2.4 x 4.4 mm</description>
+<wire x1="-2.159" y1="-0.635" x2="-2.159" y2="0.635" width="0.1524" layer="51"/>
+<wire x1="-2.159" y1="0.635" x2="-1.651" y2="1.143" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.159" y1="-0.635" x2="-1.651" y2="-1.143" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.651" y1="1.143" x2="-1.651" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="2.159" y1="-0.635" x2="2.159" y2="0.635" width="0.1524" layer="51"/>
+<wire x1="1.651" y1="-1.143" x2="-1.651" y2="-1.143" width="0.1524" layer="21"/>
+<wire x1="1.651" y1="1.143" x2="2.159" y2="0.635" width="0.1524" layer="21" curve="-90"/>
+<wire x1="1.651" y1="-1.143" x2="2.159" y2="-0.635" width="0.1524" layer="21" curve="90"/>
+<wire x1="-0.3048" y1="0.762" x2="-0.3048" y2="0" width="0.3048" layer="21"/>
+<wire x1="-0.3048" y1="0" x2="-0.3048" y2="-0.762" width="0.3048" layer="21"/>
+<wire x1="0.3302" y1="0.762" x2="0.3302" y2="0" width="0.3048" layer="21"/>
+<wire x1="0.3302" y1="0" x2="0.3302" y2="-0.762" width="0.3048" layer="21"/>
+<wire x1="2.07" y1="0" x2="0.3302" y2="0" width="0.1524" layer="21"/>
+<wire x1="-2.07" y1="0" x2="-0.3048" y2="0" width="0.1524" layer="21"/>
+<pad name="1" x="-2.54" y="0" drill="0.8128" shape="octagon"/>
+<pad name="2" x="2.54" y="0" drill="0.8128" shape="octagon"/>
+<text x="-2.159" y="1.397" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.159" y="-2.667" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="2.159" y1="-0.381" x2="2.54" y2="0.381" layer="51"/>
+<rectangle x1="-2.54" y1="-0.381" x2="-2.159" y2="0.381" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -496,16 +513,6 @@ grid 2.5 mm, outline 5 x 5 mm</description>
 <vertex x="4.2" y="-0.5"/>
 </polygon>
 </symbol>
-<symbol name="C-US">
-<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.016" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="-1" x2="2.4892" y2="-1.8542" width="0.254" layer="94" curve="-37.878202" cap="flat"/>
-<wire x1="-2.4668" y1="-1.8504" x2="0" y2="-1.0161" width="0.254" layer="94" curve="-37.373024" cap="flat"/>
-<text x="1.016" y="0.635" size="1.778" layer="95">&gt;NAME</text>
-<text x="1.016" y="-4.191" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-<pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-</symbol>
 <symbol name="MV">
 <wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
 <text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
@@ -530,6 +537,16 @@ grid 2.5 mm, outline 5 x 5 mm</description>
 <circle x="0" y="1.27" radius="1.27" width="0.254" layer="94"/>
 <text x="-2.54" y="3.175" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="+12V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
+<symbol name="C-US">
+<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.016" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1" x2="2.4892" y2="-1.8542" width="0.254" layer="94" curve="-37.878202" cap="flat"/>
+<wire x1="-2.4668" y1="-1.8504" x2="0" y2="-1.0161" width="0.254" layer="94" curve="-37.373024" cap="flat"/>
+<text x="1.016" y="0.635" size="1.778" layer="95">&gt;NAME</text>
+<text x="1.016" y="-4.191" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -664,23 +681,6 @@ Source: &lt;a href="http://sensing.honeywell.com/product%20page?pr_id=4790"&gt; 
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAPACITOR-US" prefix="C" uservalue="yes">
-<description>&lt;B&gt;CAPACITOR&lt;/B&gt;, American symbol</description>
-<gates>
-<gate name="G$1" symbol="C-US" x="0" y="0"/>
-</gates>
-<devices>
-<device name="025-050X050" package="C025-050X050">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="6PIN_HEADER" prefix="X" uservalue="yes">
 <description>.100" (2.54mm) Center Header - 6 Pin</description>
 <gates>
@@ -738,6 +738,32 @@ Source: &lt;a href="http://sensing.honeywell.com/product%20page?pr_id=4790"&gt; 
 </device>
 </devices>
 </deviceset>
+<deviceset name="CAPACITOR-US" prefix="C" uservalue="yes">
+<description>&lt;B&gt;CAPACITOR&lt;/B&gt;, American symbol</description>
+<gates>
+<gate name="G$1" symbol="C-US" x="0" y="0"/>
+</gates>
+<devices>
+<device name="025-050X050" package="C025-050X050">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="C050-024X044">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -764,8 +790,6 @@ Source: &lt;a href="http://sensing.honeywell.com/product%20page?pr_id=4790"&gt; 
 <part name="R10" library="Overcurrent Detect" deviceset="RESISTOR-US" device="0204/7" value="10k"/>
 <part name="Q1" library="Overcurrent Detect" deviceset="SUP75P03" device="07"/>
 <part name="Q2" library="Overcurrent Detect" deviceset="SUP75P03" device="07"/>
-<part name="C1" library="Overcurrent Detect" deviceset="CAPACITOR-US" device="025-050X050" value="20u"/>
-<part name="C2" library="Overcurrent Detect" deviceset="CAPACITOR-US" device="025-050X050" value="20u"/>
 <part name="X1" library="Overcurrent Detect" deviceset="6PIN_HEADER" device="" value="J1"/>
 <part name="SUPPLY1" library="Overcurrent Detect" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="Overcurrent Detect" deviceset="+12V" device=""/>
@@ -781,6 +805,9 @@ Source: &lt;a href="http://sensing.honeywell.com/product%20page?pr_id=4790"&gt; 
 <part name="SUPPLY12" library="Overcurrent Detect" deviceset="GND" device=""/>
 <part name="SUPPLY13" library="Overcurrent Detect" deviceset="+12V" device=""/>
 <part name="SUPPLY14" library="Overcurrent Detect" deviceset="GND" device=""/>
+<part name="C1" library="Overcurrent Detect" deviceset="CAPACITOR-US" device="025-050X050" value="20u"/>
+<part name="C2" library="Overcurrent Detect" deviceset="CAPACITOR-US" device="025-050X050" value="20u"/>
+<part name="C3" library="Overcurrent Detect" deviceset="CAPACITOR-US" device="" value="0.1u"/>
 </parts>
 <sheets>
 <sheet>
@@ -793,7 +820,7 @@ Source: &lt;a href="http://sensing.honeywell.com/product%20page?pr_id=4790"&gt; 
 <instance part="R1" gate="G$1" x="-30.48" y="27.94"/>
 <instance part="R2" gate="G$1" x="-20.32" y="35.56" rot="R90"/>
 <instance part="R3" gate="G$1" x="-20.32" y="15.24" rot="R90"/>
-<instance part="R4" gate="G$1" x="0" y="48.26"/>
+<instance part="R4" gate="G$1" x="0" y="50.8"/>
 <instance part="R5" gate="G$1" x="27.94" y="35.56" rot="R90"/>
 <instance part="R6" gate="G$1" x="-30.48" y="-30.48"/>
 <instance part="R7" gate="G$1" x="-20.32" y="-17.78" rot="R90"/>
@@ -802,8 +829,6 @@ Source: &lt;a href="http://sensing.honeywell.com/product%20page?pr_id=4790"&gt; 
 <instance part="R10" gate="G$1" x="27.94" y="-17.78" rot="R90"/>
 <instance part="Q1" gate="G$1" x="43.18" y="27.94"/>
 <instance part="Q2" gate="G$1" x="43.18" y="-25.4"/>
-<instance part="C1" gate="G$1" x="27.94" y="17.78"/>
-<instance part="C2" gate="G$1" x="27.94" y="-35.56"/>
 <instance part="X1" gate="-1" x="50.8" y="40.64"/>
 <instance part="X1" gate="-2" x="50.8" y="35.56"/>
 <instance part="X1" gate="-3" x="50.8" y="20.32"/>
@@ -823,8 +848,11 @@ Source: &lt;a href="http://sensing.honeywell.com/product%20page?pr_id=4790"&gt; 
 <instance part="SUPPLY11" gate="+12V" x="45.72" y="50.8"/>
 <instance part="SUPPLY12" gate="GND" x="45.72" y="-48.26"/>
 <instance part="IC2" gate="P" x="0" y="25.4"/>
-<instance part="SUPPLY13" gate="+12V" x="0" y="38.1"/>
+<instance part="SUPPLY13" gate="+12V" x="0" y="40.64"/>
 <instance part="SUPPLY14" gate="GND" x="0" y="5.08"/>
+<instance part="C1" gate="G$1" x="27.94" y="17.78"/>
+<instance part="C2" gate="G$1" x="27.94" y="-35.56"/>
+<instance part="C3" gate="G$1" x="-10.16" y="15.24"/>
 </instances>
 <busses>
 </busses>
@@ -876,8 +904,14 @@ Source: &lt;a href="http://sensing.honeywell.com/product%20page?pr_id=4790"&gt; 
 <pinref part="IC2" gate="P" pin="V+"/>
 <pinref part="SUPPLY13" gate="+12V" pin="+12V"/>
 <wire x1="0" y1="33.02" x2="0" y2="35.56" width="0.1524" layer="91"/>
-<junction x="0" y="35.56"/>
+<junction x="0" y="38.1"/>
 <junction x="0" y="33.02"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="0" y1="35.56" x2="0" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="17.78" x2="-10.16" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="35.56" x2="0" y2="35.56" width="0.1524" layer="91"/>
+<junction x="-10.16" y="17.78"/>
+<junction x="0" y="35.56"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -903,18 +937,16 @@ Source: &lt;a href="http://sensing.honeywell.com/product%20page?pr_id=4790"&gt; 
 <junction x="-20.32" y="-43.18"/>
 </segment>
 <segment>
-<pinref part="C2" gate="G$1" pin="2"/>
 <pinref part="SUPPLY10" gate="GND" pin="GND"/>
 <wire x1="27.94" y1="-40.64" x2="27.94" y2="-45.72" width="0.1524" layer="91"/>
 <junction x="27.94" y="-45.72"/>
-<junction x="27.94" y="-40.64"/>
+<pinref part="C2" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="C1" gate="G$1" pin="2"/>
 <pinref part="SUPPLY9" gate="GND" pin="GND"/>
 <wire x1="27.94" y1="12.7" x2="27.94" y2="7.62" width="0.1524" layer="91"/>
-<junction x="27.94" y="12.7"/>
 <junction x="27.94" y="7.62"/>
+<pinref part="C1" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="X1" gate="-6" pin="S"/>
@@ -930,6 +962,10 @@ Source: &lt;a href="http://sensing.honeywell.com/product%20page?pr_id=4790"&gt; 
 <wire x1="0" y1="7.62" x2="0" y2="17.78" width="0.1524" layer="91"/>
 <junction x="0" y="17.78"/>
 <junction x="0" y="7.62"/>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="-10.16" y1="10.16" x2="-10.16" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="7.62" x2="0" y2="7.62" width="0.1524" layer="91"/>
+<junction x="-10.16" y="10.16"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -939,12 +975,12 @@ Source: &lt;a href="http://sensing.honeywell.com/product%20page?pr_id=4790"&gt; 
 <wire x1="-25.4" y1="27.94" x2="-12.7" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="-12.7" y1="27.94" x2="-7.62" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="48.26" x2="-12.7" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="48.26" x2="-12.7" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="50.8" x2="-12.7" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="50.8" x2="-12.7" y2="27.94" width="0.1524" layer="91"/>
 <junction x="-25.4" y="27.94"/>
 <junction x="-7.62" y="27.94"/>
 <junction x="-12.7" y="27.94"/>
-<junction x="-5.08" y="48.26"/>
+<junction x="-5.08" y="50.8"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -1007,22 +1043,22 @@ Source: &lt;a href="http://sensing.honeywell.com/product%20page?pr_id=4790"&gt; 
 <net name="N$6" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="5.08" y1="48.26" x2="15.24" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="48.26" x2="15.24" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="50.8" x2="15.24" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="50.8" x2="15.24" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="A" pin="OUT"/>
 <wire x1="15.24" y1="25.4" x2="7.62" y2="25.4" width="0.1524" layer="91"/>
-<junction x="5.08" y="48.26"/>
+<junction x="5.08" y="50.8"/>
 <junction x="7.62" y="25.4"/>
 <pinref part="Q1" gate="G$1" pin="G"/>
 <wire x1="15.24" y1="25.4" x2="27.94" y2="25.4" width="0.1524" layer="91"/>
 <junction x="15.24" y="25.4"/>
 <pinref part="R5" gate="G$1" pin="1"/>
-<pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="25.4" x2="38.1" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="30.48" x2="27.94" y2="25.4" width="0.1524" layer="91"/>
 <junction x="27.94" y="25.4"/>
 <wire x1="27.94" y1="25.4" x2="27.94" y2="20.32" width="0.1524" layer="91"/>
 <junction x="38.1" y="25.4"/>
+<pinref part="C1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -1038,12 +1074,12 @@ Source: &lt;a href="http://sensing.honeywell.com/product%20page?pr_id=4790"&gt; 
 <wire x1="15.24" y1="-27.94" x2="27.94" y2="-27.94" width="0.1524" layer="91"/>
 <junction x="15.24" y="-27.94"/>
 <pinref part="R10" gate="G$1" pin="1"/>
-<pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="-27.94" x2="38.1" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="-22.86" x2="27.94" y2="-27.94" width="0.1524" layer="91"/>
 <junction x="27.94" y="-27.94"/>
 <wire x1="27.94" y1="-27.94" x2="27.94" y2="-33.02" width="0.1524" layer="91"/>
 <junction x="38.1" y="-27.94"/>
+<pinref part="C2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$8" class="0">
