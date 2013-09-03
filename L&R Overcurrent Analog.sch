@@ -804,12 +804,12 @@ Source: &lt;a href="http://sensing.honeywell.com/product%20page?pr_id=4790"&gt; 
 <instance part="Q2" gate="G$1" x="43.18" y="-25.4"/>
 <instance part="C1" gate="G$1" x="27.94" y="17.78"/>
 <instance part="C2" gate="G$1" x="27.94" y="-35.56"/>
-<instance part="X1" gate="-1" x="63.5" y="40.64"/>
+<instance part="X1" gate="-1" x="50.8" y="40.64"/>
 <instance part="X1" gate="-2" x="50.8" y="35.56"/>
 <instance part="X1" gate="-3" x="50.8" y="20.32"/>
 <instance part="X1" gate="-4" x="50.8" y="-17.78"/>
 <instance part="X1" gate="-5" x="50.8" y="-33.02"/>
-<instance part="X1" gate="-6" x="63.5" y="-40.64"/>
+<instance part="X1" gate="-6" x="50.8" y="-38.1"/>
 <instance part="SUPPLY1" gate="GND" x="-45.72" y="15.24"/>
 <instance part="SUPPLY2" gate="+12V" x="-45.72" y="50.8"/>
 <instance part="SUPPLY3" gate="+12V" x="-20.32" y="50.8"/>
@@ -820,8 +820,8 @@ Source: &lt;a href="http://sensing.honeywell.com/product%20page?pr_id=4790"&gt; 
 <instance part="SUPPLY8" gate="+12V" x="27.94" y="-7.62"/>
 <instance part="SUPPLY9" gate="GND" x="27.94" y="5.08"/>
 <instance part="SUPPLY10" gate="GND" x="27.94" y="-48.26"/>
-<instance part="SUPPLY11" gate="+12V" x="58.42" y="50.8"/>
-<instance part="SUPPLY12" gate="GND" x="58.42" y="-48.26"/>
+<instance part="SUPPLY11" gate="+12V" x="45.72" y="50.8"/>
+<instance part="SUPPLY12" gate="GND" x="45.72" y="-48.26"/>
 <instance part="IC2" gate="P" x="0" y="25.4"/>
 <instance part="SUPPLY13" gate="+12V" x="0" y="38.1"/>
 <instance part="SUPPLY14" gate="GND" x="0" y="5.08"/>
@@ -866,11 +866,11 @@ Source: &lt;a href="http://sensing.honeywell.com/product%20page?pr_id=4790"&gt; 
 </segment>
 <segment>
 <pinref part="SUPPLY11" gate="+12V" pin="+12V"/>
-<wire x1="58.42" y1="48.26" x2="58.42" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="48.26" x2="45.72" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="X1" gate="-1" pin="S"/>
-<wire x1="58.42" y1="40.64" x2="60.96" y2="40.64" width="0.1524" layer="91"/>
-<junction x="58.42" y="48.26"/>
-<junction x="60.96" y="40.64"/>
+<wire x1="45.72" y1="40.64" x2="48.26" y2="40.64" width="0.1524" layer="91"/>
+<junction x="45.72" y="48.26"/>
+<junction x="48.26" y="40.64"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="P" pin="V+"/>
@@ -919,10 +919,10 @@ Source: &lt;a href="http://sensing.honeywell.com/product%20page?pr_id=4790"&gt; 
 <segment>
 <pinref part="X1" gate="-6" pin="S"/>
 <pinref part="SUPPLY12" gate="GND" pin="GND"/>
-<wire x1="60.96" y1="-40.64" x2="58.42" y2="-40.64" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="-40.64" x2="58.42" y2="-45.72" width="0.1524" layer="91"/>
-<junction x="60.96" y="-40.64"/>
-<junction x="58.42" y="-45.72"/>
+<wire x1="48.26" y1="-38.1" x2="45.72" y2="-38.1" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="-38.1" x2="45.72" y2="-45.72" width="0.1524" layer="91"/>
+<junction x="48.26" y="-38.1"/>
+<junction x="45.72" y="-45.72"/>
 </segment>
 <segment>
 <pinref part="SUPPLY14" gate="GND" pin="GND"/>
