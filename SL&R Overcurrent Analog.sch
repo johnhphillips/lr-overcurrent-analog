@@ -1536,10 +1536,10 @@ Source: &lt;a href="http://www.bourns.com/data/global/pdfs/3296.pdf"&gt;Datashee
 <parts>
 <part name="IC2" library="Overcurrent Detect" deviceset="CSLA2CF" device="TH"/>
 <part name="IC1" library="Overcurrent Detect" deviceset="TLC393CP" device="N"/>
-<part name="R104" library="Overcurrent Detect" deviceset="RESISTOR-US" device="0204/7" value="3kR"/>
-<part name="R106" library="Overcurrent Detect" deviceset="RESISTOR-US" device="0204/7" value="2kR"/>
-<part name="R108" library="Overcurrent Detect" deviceset="RESISTOR-US" device="0204/7" value="1MR"/>
-<part name="R109" library="Overcurrent Detect" deviceset="RESISTOR-US" device="0204/7" value="10kR"/>
+<part name="R4" library="Overcurrent Detect" deviceset="RESISTOR-US" device="0204/7" value="3kR"/>
+<part name="R6" library="Overcurrent Detect" deviceset="RESISTOR-US" device="0204/7" value="2kR"/>
+<part name="R8" library="Overcurrent Detect" deviceset="RESISTOR-US" device="0204/7" value="1MR"/>
+<part name="R9" library="Overcurrent Detect" deviceset="RESISTOR-US" device="0204/7" value="10kR"/>
 <part name="R10" library="Overcurrent Detect" deviceset="RESISTOR-US" device="0204/7" value="3kR"/>
 <part name="R12" library="Overcurrent Detect" deviceset="RESISTOR-US" device="0204/7" value="2kR"/>
 <part name="R14" library="Overcurrent Detect" deviceset="RESISTOR-US" device="0204/7" value="1MR"/>
@@ -1590,11 +1590,11 @@ Source: &lt;a href="http://www.bourns.com/data/global/pdfs/3296.pdf"&gt;Datashee
 <part name="LABEL2" library="SL&amp;R Overcurrent Analog" deviceset="WIRE_LABEL" device="" value="DN_S"/>
 <part name="LABEL3" library="SL&amp;R Overcurrent Analog" deviceset="WIRE_LABEL" device="" value="UP_S"/>
 <part name="LABEL4" library="SL&amp;R Overcurrent Analog" deviceset="WIRE_LABEL" device="" value="DN_S"/>
-<part name="R105" library="SL&amp;R Overcurrent Analog" deviceset="POT" device="" value="10kR"/>
+<part name="R5" library="SL&amp;R Overcurrent Analog" deviceset="POT" device="" value="10kR"/>
 <part name="R13" library="SL&amp;R Overcurrent Analog" deviceset="POT" device="" value="10kR"/>
 <part name="Q1" library="SL&amp;R Overcurrent Analog" deviceset="2N7000" device=""/>
 <part name="Q2" library="SL&amp;R Overcurrent Analog" deviceset="2N7000" device=""/>
-<part name="R107" library="Overcurrent Detect" deviceset="RESISTOR-US" device="0204/7" value="10kR"/>
+<part name="R7" library="Overcurrent Detect" deviceset="RESISTOR-US" device="0204/7" value="10kR"/>
 <part name="R11" library="Overcurrent Detect" deviceset="RESISTOR-US" device="0204/7" value="10kR"/>
 </parts>
 <sheets>
@@ -1624,10 +1624,10 @@ ADJUST</text>
 <instance part="IC2" gate="G$1" x="-58.42" y="83.82"/>
 <instance part="IC1" gate="A" x="55.88" y="81.28"/>
 <instance part="IC1" gate="B" x="55.88" y="20.32"/>
-<instance part="R104" gate="G$1" x="25.4" y="83.82"/>
-<instance part="R106" gate="G$1" x="33.02" y="91.44" rot="R90"/>
-<instance part="R108" gate="G$1" x="55.88" y="106.68"/>
-<instance part="R109" gate="G$1" x="83.82" y="91.44" rot="R90"/>
+<instance part="R4" gate="G$1" x="25.4" y="83.82"/>
+<instance part="R6" gate="G$1" x="33.02" y="91.44" rot="R90"/>
+<instance part="R8" gate="G$1" x="55.88" y="106.68"/>
+<instance part="R9" gate="G$1" x="83.82" y="91.44" rot="R90"/>
 <instance part="R10" gate="G$1" x="25.4" y="17.78"/>
 <instance part="R12" gate="G$1" x="35.56" y="10.16" rot="R90"/>
 <instance part="R14" gate="G$1" x="55.88" y="35.56"/>
@@ -1692,11 +1692,11 @@ ADJUST</text>
 <instance part="LABEL2" gate="G$1" x="109.22" y="40.64" rot="R180"/>
 <instance part="LABEL3" gate="G$1" x="-78.74" y="7.62"/>
 <instance part="LABEL4" gate="G$1" x="-50.8" y="7.62"/>
-<instance part="R105" gate="G$1" x="33.02" y="104.14" rot="R270"/>
+<instance part="R5" gate="G$1" x="33.02" y="104.14" rot="R270"/>
 <instance part="R13" gate="G$1" x="35.56" y="-2.54" rot="R90"/>
 <instance part="Q1" gate="G$1" x="-63.5" y="10.16"/>
 <instance part="Q2" gate="G$1" x="-35.56" y="10.16"/>
-<instance part="R107" gate="G$1" x="33.02" y="71.12" rot="R90"/>
+<instance part="R7" gate="G$1" x="33.02" y="71.12" rot="R90"/>
 <instance part="R11" gate="G$1" x="35.56" y="30.48" rot="R90"/>
 </instances>
 <busses>
@@ -1709,7 +1709,7 @@ ADJUST</text>
 <wire x1="83.82" y1="35.56" x2="83.82" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R109" gate="G$1" pin="2"/>
+<pinref part="R9" gate="G$1" pin="2"/>
 <pinref part="SUPPLY7" gate="+12V" pin="+12V"/>
 <wire x1="83.82" y1="96.52" x2="83.82" y2="106.68" width="0.1524" layer="91"/>
 </segment>
@@ -1751,7 +1751,7 @@ ADJUST</text>
 </segment>
 <segment>
 <pinref part="SUPPLY3" gate="+12V" pin="+12V"/>
-<pinref part="R105" gate="G$1" pin="3"/>
+<pinref part="R5" gate="G$1" pin="3"/>
 <wire x1="15.24" y1="106.68" x2="15.24" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="104.14" x2="25.4" y2="104.14" width="0.1524" layer="91"/>
 </segment>
@@ -1811,7 +1811,7 @@ ADJUST</text>
 <wire x1="-15.24" y1="-5.08" x2="-15.24" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R107" gate="G$1" pin="1"/>
+<pinref part="R7" gate="G$1" pin="1"/>
 <pinref part="SUPPLY5" gate="GND" pin="GND"/>
 <wire x1="33.02" y1="66.04" x2="33.02" y2="63.5" width="0.1524" layer="91"/>
 </segment>
@@ -1824,10 +1824,10 @@ ADJUST</text>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="R104" gate="G$1" pin="2"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="IC1" gate="A" pin="+IN"/>
 <wire x1="30.48" y1="83.82" x2="45.72" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="R108" gate="G$1" pin="1"/>
+<pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="83.82" x2="48.26" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="106.68" x2="45.72" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="106.68" x2="45.72" y2="83.82" width="0.1524" layer="91"/>
@@ -1839,8 +1839,8 @@ ADJUST</text>
 <pinref part="IC1" gate="A" pin="-IN"/>
 <wire x1="48.26" y1="78.74" x2="33.02" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="TP2" gate="G$1" pin="TP"/>
-<pinref part="R106" gate="G$1" pin="1"/>
-<pinref part="R107" gate="G$1" pin="2"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="33.02" y1="78.74" x2="30.48" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="86.36" x2="33.02" y2="78.74" width="0.1524" layer="91"/>
 <junction x="33.02" y="78.74"/>
@@ -1873,7 +1873,7 @@ ADJUST</text>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="R108" gate="G$1" pin="2"/>
+<pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="60.96" y1="106.68" x2="71.12" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="106.68" x2="71.12" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="A" pin="OUT"/>
@@ -1881,7 +1881,7 @@ ADJUST</text>
 <pinref part="Q3" gate="G$1" pin="G"/>
 <wire x1="71.12" y1="81.28" x2="83.82" y2="81.28" width="0.1524" layer="91"/>
 <junction x="71.12" y="81.28"/>
-<pinref part="R109" gate="G$1" pin="1"/>
+<pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="81.28" x2="91.44" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="81.28" x2="93.98" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="86.36" x2="83.82" y2="81.28" width="0.1524" layer="91"/>
@@ -1981,7 +1981,7 @@ ADJUST</text>
 <pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="20.32" y1="17.78" x2="15.24" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="17.78" x2="15.24" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="R104" gate="G$1" pin="1"/>
+<pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="15.24" y1="83.82" x2="20.32" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="X2" gate="-2" pin="S"/>
 <wire x1="0" y1="83.82" x2="15.24" y2="83.82" width="0.1524" layer="91"/>
@@ -2027,8 +2027,8 @@ ADJUST</text>
 </net>
 <net name="N$20" class="0">
 <segment>
-<pinref part="R105" gate="G$1" pin="2"/>
-<pinref part="R106" gate="G$1" pin="2"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="33.02" y1="99.06" x2="33.02" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
